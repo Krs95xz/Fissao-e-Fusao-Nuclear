@@ -1,0 +1,70 @@
+:root {
+    --corCinza: rgb(224, 222, 222);
+}
+* {
+    font-family: "Poppins";
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: 1em;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+header {
+    position: fixed;
+    display: flex;
+    gap: 3vmax;
+    width: 100dvw;
+    background-color: var(--corCinza);
+    padding: 20px;
+    top: 0;
+}
+main {
+    padding: 20px;
+}
+h1 {
+    font-size: 4em;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.slides {
+    padding-top: 100px;
+}
+.conteudo {
+    container-type: normal;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.conteudo > div:nth-child(2) {
+    text-align: center;
+}
+.conteudo > div:nth-child(2) > img {
+    width: 50dvw;
+    height: 26vmax;
+    margin-top: 10px;
+}
+button {
+    display: block;
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+    padding: 5px;
+}
+ol > li {
+    list-style-type: square;
+}
+#imgFinal {
+    margin: auto;
+    display: block;
+    width: 40vmax;
+}
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+}
